@@ -1,0 +1,11 @@
+# Starting specification, not a tested lockfile. Use Python 3.10.12.
+# Install the dPickleball ML-Agents fork alongside this file; see README.md.
+# NumPy and OpenCV versions follow the upstream environment instructions.
+numpy==1.23.5
+opencv-python==4.7.0.72
+gym>=0.21.0
+gymnasium>=0.28.1,<2
+stable-baselines3>=2.0,<3
+torch>=2.0
+# Used when TensorBoard logging is enabled in the training configuration.
+tensorboard>=2.10

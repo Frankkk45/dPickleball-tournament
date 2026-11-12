@@ -1,0 +1,48 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training outputs and weights
+model_pool/
+ppo_logs/
+runs/
+logs/
+*.log
+worker_*_log.txt
+*.zip
+*.pt
+*.pth
+*.onnx
+events.out.tfevents.*
+
+# External dependencies and Unity builds
+external/
+builds/
+Builds/
+BuildFiles/
+Training/
+*.exe
+*.app/
+*_Data/
+UnityPlayer.dll
+UnityPlayer.so
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
