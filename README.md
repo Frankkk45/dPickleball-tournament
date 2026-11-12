@@ -5,6 +5,10 @@
 
 [English](#english) · [日本語](#日本語)
 
+## Demo / デモ
+
+![dPickleball gameplay demo](assets/demo.gif)
+
 ## English
 
 ### Overview
